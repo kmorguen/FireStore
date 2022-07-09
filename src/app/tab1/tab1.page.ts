@@ -12,7 +12,7 @@ export class Tab1Page {
   constructor(
     public firestore : AngularFirestore
   ) {
-    this.items = this.firestore.collection('users').valueChanges();
+    this.items = this.firestore.collection('produits').valueChanges();
   }
 
 }
